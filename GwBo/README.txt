@@ -14,9 +14,5 @@ da go zapishe tuk (i, razbira se, da spomene za tova vyv commit message).
 2. Moje da napravim papka, v koqto da sybirame polezna informaciq i tutorialcheta,
 koito namirame prez dylgite i SAMOTNI noshti na razrushitelno programirane :)
 
-PS: InitialMenu.classes sym mu slojil 2 elementa da moje da ima neshto predi
-da sme go pochnali sys activity-ta. Kato se kliknat ne rabotqt. Shte gi iztriq,
-kato slojim pyrvite "istinski" bebcheta :)
-
 Info:
 EGit - http://www.vogella.com/tutorials/EclipseGit/article.html#usingegit_overview
