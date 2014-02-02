@@ -1,17 +1,15 @@
 package com.example.gwbo;
 
 import android.os.Bundle;
-import android.app.Activity;
 import android.app.ListActivity;
 import android.content.Intent;
-import android.view.Menu;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class InitialMenu extends ListActivity {
 	
-	String[] classes = {"class1" , "class2"};
+	String[] classes = {"Demo"};
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +25,7 @@ public class InitialMenu extends ListActivity {
 		String strClass = classes[position];
 
 		try {
-			Class clickedClass = Class.forName("com.probe.probe." + strClass);
+			Class clickedClass = Class.forName("com.example.gwbo." + strClass);
 
 			Intent intent = new Intent(InitialMenu.this, clickedClass);
 			startActivity(intent);
