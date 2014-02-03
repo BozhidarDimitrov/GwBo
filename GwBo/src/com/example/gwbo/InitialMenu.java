@@ -9,20 +9,20 @@ import android.widget.ListView;
 
 public class InitialMenu extends ListActivity {
 	
-	String[] classes = {"Demo"};
+	String[] activities = {"Demo"};
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		
-		setListAdapter(new ArrayAdapter<String>(InitialMenu.this, android.R.layout.simple_list_item_1, classes));
+		setListAdapter(new ArrayAdapter<String>(InitialMenu.this, android.R.layout.simple_list_item_1, activities));
 	}
 	
 	@Override
 	protected void onListItemClick(ListView l, View v, int position, long id) {
 		super.onListItemClick(l, v, position, id);
 
-		String strClass = classes[position];
+		String strClass = activities[position];
 
 		try {
 			Class clickedClass = Class.forName("com.example.gwbo." + strClass);

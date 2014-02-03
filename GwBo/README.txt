@@ -2,7 +2,7 @@
 
 Instrukcii:
 
-1. Sled kato se podgotvi nov class(file) se dobavq v spisyka "classes" v class-a
+1. Sled kato se podgotvi novo activity se dobavq v spisyka "activities" v class-a
 InitialMenu. Imeto trqbva da e napisano tochno. Ako se namira v pod-direktoriq
 se polzva ".", za da se opishe pytq do nego.
 2. Vsi4ki promeni se opisvat nakratko vyv "commit message". Neka se znae
