@@ -13,7 +13,6 @@ public class Demo extends Activity implements OnClickListener {
 	private Button sub;
 	private TextView tv;
 	private int counter;
-	
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
