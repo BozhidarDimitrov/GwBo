@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="11"
-        android:targetSdkVersion="17" />
+        android:targetSdkVersion="19" />
 
     <application
         android:allowBackup="true"
@@ -15,7 +15,7 @@
         android:theme="@style/AppTheme" >
         
         <activity
-            android:name="com.example.gwbo.InitialMenu"
+            android:name="com.example.gwbo.system.InitialMenu"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,6 +26,12 @@
         
         <activity
             android:name="com.example.gwbo.Demo"
+            android:exported="false"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.gwbo.Drawables"
             android:exported="false"
             android:label="@string/app_name" >
         </activity>

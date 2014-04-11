@@ -1,4 +1,4 @@
-package com.example.gwbo;
+package com.example.gwbo.system;
 
 import android.os.Bundle;
 import android.app.ListActivity;
@@ -9,7 +9,7 @@ import android.widget.ListView;
 
 public class InitialMenu extends ListActivity {
 	
-	String[] activities = {"Demo"};
+	String[] activities = {"Demo", "Drawables"};
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

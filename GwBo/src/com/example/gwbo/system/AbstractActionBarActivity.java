@@ -1,28 +1,27 @@
-package com.example.gwbo;
+package com.example.gwbo.system;
 
-import android.app.Activity;
+import com.example.gwbo.system.LoggingManager.Debuggable;
+
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 
-/**
- * Template for a new Activity
- * 
- * @author Bozhidar
- *
- */
-public class TemplateForActivity extends Activity{
+public abstract class AbstractActionBarActivity extends ActionBarActivity implements Debuggable {
 	
 	/* DEBUGGING */
-	public static final boolean GLOBAL_DEBUG = true;
-	private static final boolean LOCAL_DEBUG = true;
-	private static final String TAG = TemplateForActivity.class.getSimpleName();
-	private final String debug_intro = 
+	private final String log_intro = 
 			"..." + this.toString().substring(this.toString().length() - 5) + " ";
 	
-	private void debug(String text){
-		if (GLOBAL_DEBUG && LOCAL_DEBUG) Log.d(TAG, debug_intro + text);
+	@Override
+	public void debug(String message) {
+		if (LoggingManager.GLOBAL_DEBUG && localDebug()) {
+			Log.d(getClassTag(), log_intro + message);
+		}
 	}
 	
+	protected abstract String getClassTag();
+	
+	/* LIFECYCLE */
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
