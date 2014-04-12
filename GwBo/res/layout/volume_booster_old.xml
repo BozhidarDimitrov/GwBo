@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<!-- 
+    <LinearLayout
+        style="@style/primary_layout"
+        android:baselineAligned="false" >
+
+        <LinearLayout style="@style/vertical_left_layout" >
+
+            <RelativeLayout style="@style/small_layout" >
+
+                <ImageView
+                    android:id="@id/imageView2"
+                    style="@style/small_circle_not_filled" />
+
+                <TextView
+                    android:id="@id/systemProgressView"
+                    style="@style/value_small"
+                    android:text="2/7" />
+
+                <TextView
+                    android:id="@id/systemView"
+                    style="@style/legend_small"
+                    android:text="SYSTEM" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="2.3"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@id/iconImageView"
+                style="@style/large_circle_not_filled" />
+
+            <TextView
+                android:id="@id/mediaProgressView"
+                style="@style/value_center"
+                android:text="15/15" />
+
+            <TextView
+                android:id="@id/mediaView"
+                style="@style/legend_large"
+                android:text="@string/media" />
+        </RelativeLayout>
+
+        <LinearLayout style="@style/vertical_right_layout" >
+
+            <RelativeLayout style="@style/small_layout" >
+
+                <ImageView
+                    android:id="@id/imageView3"
+                    style="@style/small_circle_not_filled" />
+
+                <TextView
+                    android:id="@id/noticesProgressView"
+                    style="@style/value_small"
+                    android:text="5/7" />
+
+                <TextView
+                    android:id="@id/noticesView"
+                    style="@style/legend_small"
+                    android:text="NOTICES" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/secondary_layout"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" >
+
+            <SeekBar
+                android:id="@id/systemSeekBar"
+                style="@style/seekbar"
+                android:progress="20" />
+
+            <TextView
+                android:id="@id/textView1"
+                style="@style/label"
+                android:layout_above="@id/systemSeekBar"
+                android:text="@string/system" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" >
+
+            <SeekBar
+                android:id="@id/mediaSeekBar"
+                style="@style/seekbar" />
+
+            <TextView
+                android:id="@id/textView2"
+                style="@style/label"
+                android:layout_above="@id/mediaSeekBar"
+                android:text="@string/media" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" >
+
+            <SeekBar
+                android:id="@id/notifySeekBar"
+                style="@style/seekbar" />
+
+            <TextView
+                android:id="@id/textView3"
+                style="@style/label"
+                android:layout_above="@id/notifySeekBar"
+                android:text="@string/notifications" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="3.0"
+            android:gravity="center" >
+
+            <Button
+                android:id="@id/Boost"
+                style="@style/button"
+                android:onClick="onBoostButtonClick"
+                android:text="@string/boost" />
+        </RelativeLayout>
+    </LinearLayout>
+ -->
+</LinearLayout>

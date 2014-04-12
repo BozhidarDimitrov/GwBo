@@ -9,7 +9,7 @@ import android.widget.ListView;
 
 public class InitialMenu extends ListActivity {
 	
-	String[] activities = {"Demo", "Drawables"};
+	String[] activities = {"Demo", "Drawables", "VolumeBooster"};
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

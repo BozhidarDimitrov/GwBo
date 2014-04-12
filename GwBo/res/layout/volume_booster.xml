@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="65"
+        android:background="@color/primary_color" >
+
+        <View
+            android:id="@+id/volume_booster_separator_1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true"
+            android:background="@android:color/background_dark" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/volume_booster_separator_1" >
+
+            <View
+                android:id="@+id/volume_booster_separator_2_up_center"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerInParent="true"
+                android:background="@android:color/background_dark" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:contentDescription="desc"
+                android:src="@drawable/volume_booster_large_circle" />
+
+            <View
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:layout_below="@id/volume_booster_separator_2_up_center"
+                android:layout_centerInParent="true"
+                android:background="@color/third_color" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingBottom="@dimen/value_large_padding"
+                android:text="15/15"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/value_center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingTop="@dimen/legend_large_padding"
+                android:text="MEDIA"
+                android:textColor="@color/primary_color"
+                android:textSize="@dimen/legend_large" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/volume_booster_separator_1"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="35" >
+
+                <View
+                    android:id="@+id/volume_booster_separator_2_down_left"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_centerInParent="true"
+                    android:background="@android:color/background_dark" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="desc"
+                    android:src="@drawable/volume_booster_medium_circle" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:layout_centerInParent="true"
+                    android:layout_toRightOf="@id/volume_booster_separator_2_down_left"
+                    android:background="@color/third_color" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:paddingBottom="@dimen/small_padding"
+                    android:text="2/7"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/value_small" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:paddingTop="@dimen/small_padding"
+                    android:text="SYSTEM"
+                    android:textColor="@color/primary_color"
+                    android:textSize="@dimen/legend_small" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30" >
+
+                <View
+                    android:id="@+id/volume_booster_separator_2_down_center"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_centerInParent="true"
+                    android:background="@android:color/background_dark" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="desc"
+                    android:src="@drawable/volume_booster_medium_circle" />
+
+                <View
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:layout_above="@id/volume_booster_separator_2_down_center"
+                    android:layout_centerInParent="true"
+                    android:background="@color/third_color" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:layout_centerInParent="true"
+                    android:background="@color/third_color" />
+                
+                <Button 
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/volume_booster_button"
+                    android:gravity="center"
+                    android:textSize="@dimen/button_text"
+                    android:textColor="@color/third_color"
+                    android:text="BOOST"
+                    android:padding="@dimen/spacing"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="35" >
+
+                <View
+                    android:id="@+id/volume_booster_separator_2_down_right"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_centerInParent="true"
+                    android:background="@android:color/background_dark" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="desc"
+                    android:src="@drawable/volume_booster_medium_circle" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:layout_centerInParent="true"
+                    android:layout_toLeftOf="@id/volume_booster_separator_2_down_right"
+                    android:background="@color/third_color" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:paddingBottom="@dimen/small_padding"
+                    android:text="5/7"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/value_small" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:paddingTop="@dimen/small_padding"
+                    android:text="NOTICES"
+                    android:textColor="@color/primary_color"
+                    android:textSize="@dimen/legend_small" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    
+    <LinearLayout 
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="35"
+        android:orientation="vertical"
+        android:background="@color/third_color"
+        android:weightSum="100">
+        
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="25">
+            
+            <SeekBar 
+                android:id="@+id/systemSeekBar"
+                style="@android:style/Widget.SeekBar"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:progress="20"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:maxHeight="@dimen/slider"
+                android:indeterminate="false"
+                android:progressDrawable="@drawable/custom_seek_bar"
+                android:minHeight="@dimen/slider"
+                android:thumb="@drawable/seek_bar_thumb"
+                android:thumbOffset="3dp"
+                android:layout_alignParentBottom="true" />
+            
+            <TextView 
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="@dimen/label"
+                android:textColor="@color/text_color"
+                android:paddingLeft="@dimen/padding_label"
+                android:text="SYSTEM"
+                android:layout_above="@id/systemSeekBar"/>
+            
+        </RelativeLayout>
+        
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="25">
+            
+             <SeekBar 
+                android:id="@+id/mediaSeekBar"
+                style="@android:style/Widget.SeekBar"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:progress="20"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:maxHeight="@dimen/slider"
+                android:indeterminate="false"
+                android:progressDrawable="@drawable/custom_seek_bar"
+                android:minHeight="@dimen/slider"
+                android:thumb="@drawable/seek_bar_thumb"
+                android:thumbOffset="3dp"
+                android:layout_alignParentBottom="true" />
+            
+            <TextView 
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="@dimen/label"
+                android:textColor="@color/text_color"
+                android:paddingLeft="@dimen/padding_label"
+                android:text="MEDIA"
+                android:layout_above="@id/mediaSeekBar"/>
+            
+            
+        </RelativeLayout>
+        
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="25">
+            
+            <SeekBar 
+                android:id="@+id/notificationsSeekBar"
+                style="@android:style/Widget.SeekBar"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:progress="20"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:maxHeight="@dimen/slider"
+                android:indeterminate="false"
+                android:progressDrawable="@drawable/custom_seek_bar"
+                android:minHeight="@dimen/slider"
+                android:thumb="@drawable/seek_bar_thumb"
+                android:thumbOffset="3dp"
+                android:layout_alignParentBottom="true" />
+            
+            <TextView 
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="@dimen/label"
+                android:textColor="@color/text_color"
+                android:paddingLeft="@dimen/padding_label"
+                android:text="NOTIFICATIONS"
+                android:layout_above="@id/notificationsSeekBar"/>
+            
+            
+        </RelativeLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>
