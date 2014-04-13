@@ -17,7 +17,7 @@ public class Demo extends AbstractFragmentAcitivty implements OnClickListener {
 	private Button sub;
 	private TextView tv;
 	private int counter;
-	
+	private Button add;
 	/* DEBUGGING */
 	@Overridedadasdasdasdasdasdasdasdasdsad
 	public boolean localDebug() {
