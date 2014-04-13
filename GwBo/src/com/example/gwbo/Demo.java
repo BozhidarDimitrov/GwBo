@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 public class Demo extends AbstractFragmentAcitivty implements OnClickListener {
 	
+	//jivko pederast
 	private Button sub;
 	private TextView tv;
 	private int counter;
