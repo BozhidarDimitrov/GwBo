@@ -13,5 +13,3 @@ public class LoggingManager {
 	public static final boolean DRAWABLES = false;
 	public static final boolean VOLUME_BOOSTER = false;
 }
-//bojo
-dasdasdsads

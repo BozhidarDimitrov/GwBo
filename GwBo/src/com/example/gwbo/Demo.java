@@ -4,7 +4,6 @@ import com.example.gwbo.system.AbstractFragmentAcitivty;
 import com.example.gwbo.system.LoggingManager;
 
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -12,18 +11,16 @@ import android.widget.TextView;
 
 public class Demo extends AbstractFragmentAcitivty implements OnClickListener {
 	
-	private Button pipniHui;
-	private Button add;
 	private Button sub;
 	private TextView tv;
 	private int counter;
 	private Button add;
 	/* DEBUGGING */
-	@Overridedadasdasdasdasdasdasdasdasdsad
+	@Override
 	public boolean localDebug() {
 		return LoggingManager.DEMO;
 	}
-    @Overrideskype
+    @Override
 	protected String getClassTag() {
 		return Demo.class.getSimpleName();
 	}
