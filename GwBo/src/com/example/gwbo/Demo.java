@@ -12,18 +12,18 @@ import android.widget.TextView;
 
 public class Demo extends AbstractFragmentAcitivty implements OnClickListener {
 	
+	private Button pipniHui;
 	private Button add;
 	private Button sub;
 	private TextView tv;
 	private int counter;
-	
+	private Button add;
 	/* DEBUGGING */
-	@Override
+	@Overridedadasdasdasdasdasdasdasdasdsad
 	public boolean localDebug() {
 		return LoggingManager.DEMO;
 	}
-
-	@Override
+    @Overrideskype
 	protected String getClassTag() {
 		return Demo.class.getSimpleName();
 	}
