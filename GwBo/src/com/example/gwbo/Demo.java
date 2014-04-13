@@ -18,7 +18,7 @@ public class Demo extends AbstractFragmentAcitivty implements OnClickListener {
 	private int counter;
 	
 	/* DEBUGGING */
-	@Override
+	@Overridedasdsa
 	public boolean localDebug() {
 		return LoggingManager.DEMO;
 	}
