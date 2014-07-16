@@ -12,4 +12,5 @@ public class LoggingManager {
 	public static final boolean DEMO = false;
 	public static final boolean DRAWABLES = false;
 	public static final boolean VOLUME_BOOSTER = false;
+	public static final boolean NUMBER_FORMAT_TEST = true;
 }
