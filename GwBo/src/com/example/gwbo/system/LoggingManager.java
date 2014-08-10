@@ -12,5 +12,6 @@ public class LoggingManager {
 	public static final boolean DEMO = false;
 	public static final boolean DRAWABLES = false;
 	public static final boolean VOLUME_BOOSTER = false;
-	public static final boolean NUMBER_FORMAT_TEST = true;
+	public static final boolean NUMBER_FORMAT_TEST = false;
+	public static final boolean LOCAL_BROADCAST_RECEIVER_HOLDER = true;
 }
