@@ -43,6 +43,8 @@ public class Demo extends AbstractFragmentAcitivty implements OnClickListener {
 		
 		add.setOnClickListener(this);
 		sub.setOnClickListener(this);
+		add.setOnClickListener(this);
+		sub.setOnClickListener(this);
 	}
 
 	@Override
