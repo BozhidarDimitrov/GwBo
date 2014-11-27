@@ -11,7 +11,8 @@ public class InitialMenu extends ListActivity {
 	
 	String[] activities = 
 			{"Demo", "Drawables", "VolumeBooster", "numberformat.NumberFormatTest", 
-			"broadcastreceivers.LocalBroadcastReceiverHolder"};
+			"broadcastreceivers.LocalBroadcastReceiverHolder", "EditTextTexts", "TimeTests"
+			, "OrientationLocking"};
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
