@@ -1143,7 +1143,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f050055;
+        public static final int action_settings=0x7f050056;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
@@ -1173,18 +1173,19 @@ containing a value of this type.
         public static final int local_broadcast_receiver_holder_button=0x7f050043;
         public static final int local_broadcast_receiver_holder_et=0x7f050042;
         public static final int local_broadcast_receiver_holder_tv=0x7f050044;
-        public static final int mediaSeekBar=0x7f050053;
+        public static final int locales_text=0x7f050045;
+        public static final int mediaSeekBar=0x7f050054;
         public static final int middle=0x7f050012;
         public static final int never=0x7f050009;
         public static final int none=0x7f050010;
         public static final int normal=0x7f050000;
-        public static final int notificationsSeekBar=0x7f050054;
-        public static final int number_format_test_button=0x7f050046;
-        public static final int number_format_test_et1=0x7f050045;
-        public static final int number_format_test_et2=0x7f050047;
-        public static final int orientation_locking_button_land=0x7f050049;
-        public static final int orientation_locking_button_port=0x7f050048;
-        public static final int orientation_locking_button_unlock=0x7f05004a;
+        public static final int notificationsSeekBar=0x7f050055;
+        public static final int number_format_test_button=0x7f050047;
+        public static final int number_format_test_et1=0x7f050046;
+        public static final int number_format_test_et2=0x7f050048;
+        public static final int orientation_locking_button_land=0x7f05004a;
+        public static final int orientation_locking_button_port=0x7f050049;
+        public static final int orientation_locking_button_unlock=0x7f05004b;
         public static final int progress_circular=0x7f050018;
         public static final int progress_horizontal=0x7f050019;
         public static final int radio=0x7f05002f;
@@ -1204,19 +1205,19 @@ containing a value of this type.
         public static final int showTitle=0x7f050006;
         public static final int split_action_bar=0x7f05001e;
         public static final int submit_area=0x7f050039;
-        public static final int systemSeekBar=0x7f050052;
+        public static final int systemSeekBar=0x7f050053;
         public static final int tabMode=0x7f050002;
-        public static final int time_tests_button=0x7f05004c;
-        public static final int time_tests_tv=0x7f05004b;
+        public static final int time_tests_button=0x7f05004d;
+        public static final int time_tests_tv=0x7f05004c;
         public static final int title=0x7f05002b;
         public static final int top_action_bar=0x7f050020;
         public static final int up=0x7f050021;
         public static final int useLogo=0x7f050003;
-        public static final int volume_booster_separator_1=0x7f05004d;
-        public static final int volume_booster_separator_2_down_center=0x7f050050;
-        public static final int volume_booster_separator_2_down_left=0x7f05004f;
-        public static final int volume_booster_separator_2_down_right=0x7f050051;
-        public static final int volume_booster_separator_2_up_center=0x7f05004e;
+        public static final int volume_booster_separator_1=0x7f05004e;
+        public static final int volume_booster_separator_2_down_center=0x7f050051;
+        public static final int volume_booster_separator_2_down_left=0x7f050050;
+        public static final int volume_booster_separator_2_down_right=0x7f050052;
+        public static final int volume_booster_separator_2_up_center=0x7f05004f;
         public static final int withText=0x7f05000c;
     }
     public static final class integer {
@@ -1273,11 +1274,12 @@ containing a value of this type.
         public static final int drawables=0x7f030019;
         public static final int edit_text_tests=0x7f03001a;
         public static final int local_broadcast_receiver_holder=0x7f03001b;
-        public static final int number_format_test=0x7f03001c;
-        public static final int orientation_locking=0x7f03001d;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001e;
-        public static final int time_tests=0x7f03001f;
-        public static final int volume_booster=0x7f030020;
+        public static final int locales=0x7f03001c;
+        public static final int number_format_test=0x7f03001d;
+        public static final int orientation_locking=0x7f03001e;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001f;
+        public static final int time_tests=0x7f030020;
+        public static final int volume_booster=0x7f030021;
     }
     public static final class menu {
         public static final int initial_menu=0x7f0c0000;

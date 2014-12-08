@@ -12,7 +12,7 @@ public class InitialMenu extends ListActivity {
 	String[] activities = 
 			{"Demo", "Drawables", "VolumeBooster", "numberformat.NumberFormatTest", 
 			"broadcastreceivers.LocalBroadcastReceiverHolder", "EditTextTexts", "TimeTests"
-			, "OrientationLocking"};
+			, "OrientationLocking" , "Locales"};
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
